@@ -86,4 +86,4 @@ const s = urlParams.get("s");
 if (s == 1) {
   intro.remove();
   main.style.opacity = "1";
-} else load();
+}
