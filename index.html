@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <title>Document</title>
+  </head>
+  <body onscroll="console.log(123)">
+    <div id="intro">
+      <div id="text">
+        <video autoplay muted loop id="video_1">
+          <source src="/media/intro_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p id="ww">World War I</p>
+        <p id="by">by</p>
+        <p id="sus">Șușu Andrei</p>
+
+        <audio autoplay id="audio">
+          <source src="/media/intro_1.mp3" type="audio/mpeg" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div id="video">
+        <video muted loop id="video_2">
+          <source src="/media/intro_video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <audio id="audio_2">
+          <source src="/media/intro_sound.mp3" type="audio/mpeg" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+    </div>
+    <div class="main" id="main">
+      <img src="media/Slide1.jpg" alt="" />
+      <a class="button-left" href="/war.html">The Great War</a>
+      <a class="button-right" href="/timeline.html">Timeline</a>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
